@@ -26,7 +26,7 @@ object MDMProcessor {
   def main(arg: Array[String]) : Unit = {
     val starttime = System.currentTimeMillis()
     println("Input: " + inputDirNm + " Output: " + resultFileNm)
-    val input = Array("737851481938824467","2018-01-01-10.09.48.15400","3000001","737851481938824467","1970-12-09-00.00.00.000000","RXMDHYHX J","EFSWNPF","1017721202","064 LSKHMX YDSE XPM426","TORONTO","M3G6Z4","108","31")
+    val input = Array("737851481938824467","2018-01-01-10.09.48.15400","3000001","737851481938824467","1970-12-09-00.00.00.000000","EWISYRW J","EYUEMND","1017721202","064 LSKYUE YDSE XPW478","TORONTO","M3G6Z4","108","31")
     val dr = new File(inputDirNm)
 
     val fw = new File(resultFileNm)
